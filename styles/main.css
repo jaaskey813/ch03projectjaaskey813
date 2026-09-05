@@ -18,10 +18,27 @@ nav ul li:hover {
   backround-color: aqua;
 }
 
+section {
+  justify-items: center;
+}
+
 table {
   border-radius: 1px; 
   border-style: solid;
 }
 tr:nth-child(even) {
   background-color: lightgrey;
+}
+
+.bordered-image {
+  border: 5px solid black;
+  border-radius: 8px:
+}
+
+#png-figure {
+  float: left;
+}
+
+#jpg-figure {
+  float: inline-end;
 }
