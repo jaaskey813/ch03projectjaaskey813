@@ -1,8 +1,22 @@
+/* Johnathon Askey 9/5/2026 */
+html, body {
+  diplay: block;
+  font-family: 'Times New Roman', times, serif;
+}
 nav ul {
-  Backround-color: blue;
-  list-style-type: none;}
-nav ul li a:hover {
-  backround-color: green;}
+  Backround-color: beige;
+  list-style-type: none;
+
+}
+nav ul li a {
+  text decoration: none;
+  font-weight: bold;
+  color: red;
+}
+
+nav ul li:hover {
+  backround-color: aqua;
+}
 nav ul li a {
   text-decoration: none;
   font-weight: bold:
