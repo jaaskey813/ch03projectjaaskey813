@@ -35,6 +35,11 @@ tr:nth-child(even) {
   border-radius: 8px:
 }
 
+dive.Image-container {
+  display: grid;
+  grid-template-colums: 1fr 1fr;
+  gap: 20px;
+}
 #png-figure {
   float: left;
 }
