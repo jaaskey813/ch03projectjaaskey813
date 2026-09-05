@@ -17,9 +17,11 @@ nav ul li a {
 nav ul li:hover {
   backround-color: aqua;
 }
-nav ul li a {
-  text-decoration: none;
-  font-weight: bold:
-  color: purple;}
-tbody tr:nth-child(even) {
-  backround-color: Purple;}
+
+table {
+  border-radius: 1px; 
+  border-style: solid;
+}
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
