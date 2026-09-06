@@ -7,7 +7,7 @@ html, body {
 nav ul {
   display: block;
   float:none;
-  Backround-color: beige;
+  backround-color: beige;
   list-style-type: none;
 }
 
@@ -44,6 +44,7 @@ dive#Image-container {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
 #png-figure {
   float: left;
 }
