@@ -1,15 +1,18 @@
 <!-- Johnathon Askey 9/6/2026 -->
 html, body {
   diplay: block;
-  font-family: 'Times New Roman', times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 nav ul {
+  display: block;
+  float:none;
   Backround-color: beige;
   list-style-type: none;
-
 }
+
 nav ul li a {
-  text decoration: none;
+  text-decoration: none;
   font-weight: bold;
   color: red;
 }
@@ -26,6 +29,7 @@ table {
   border-radius: 1px; 
   border-style: solid;
 }
+
 tr:nth-child(even) {
   background-color: lightgrey;
 }
@@ -35,9 +39,9 @@ tr:nth-child(even) {
   border-radius: 8px:
 }
 
-dive.Image-container {
+dive#Image-container {
   display: grid;
-  grid-template-colums: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 #png-figure {
