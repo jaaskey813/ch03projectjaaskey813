@@ -7,7 +7,7 @@ html, body {
 nav ul {
   display: block;
   float:none;
-  backround-color: beige;
+  backround-color: yellow;
   list-style-type: none;
 }
 
@@ -18,7 +18,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  backround-color: aqua;
+  backround-color: purple;
 }
 
 section {
