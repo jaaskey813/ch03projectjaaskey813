@@ -7,7 +7,7 @@ html, body {
 nav ul {
   display: block;
   float:none;
-  backround-color: yellow;
+  backround-color:beige;
   list-style-type: none;
 }
 
@@ -18,7 +18,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  backround-color: purple;
+  backround-color:aqua;
 }
 
 section {
@@ -39,7 +39,7 @@ tr:nth-child(even) {
   border-radius: 8px:
 }
 
-dive#Image-container {
+dive#image-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
